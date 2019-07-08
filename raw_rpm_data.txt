@@ -1,0 +1,66 @@
+RPMs written to:
+/home/osboxes/Projects/github.com/kubernetes/release/rpm/output/aarch64/:
+cri-tools-1.11.1-0.aarch64.rpm	kubectl-1.11.0-0.aarch64.rpm  kubernetes-cni-0.7.5-0.aarch64.rpm
+kubeadm-1.11.0-0.aarch64.rpm	kubelet-1.11.0-0.aarch64.rpm  repodata
+
+/home/osboxes/Projects/github.com/kubernetes/release/rpm/output/armhfp/:
+cri-tools-1.11.1-0.armhfp.rpm  kubectl-1.11.0-0.armhfp.rpm  kubernetes-cni-0.7.5-0.armhfp.rpm
+kubeadm-1.11.0-0.armhfp.rpm    kubelet-1.11.0-0.armhfp.rpm  repodata
+
+/home/osboxes/Projects/github.com/kubernetes/release/rpm/output/ppc64le/:
+cri-tools-1.11.1-0.ppc64le.rpm	kubectl-1.11.0-0.ppc64le.rpm  kubernetes-cni-0.7.5-0.ppc64le.rpm
+kubeadm-1.11.0-0.ppc64le.rpm	kubelet-1.11.0-0.ppc64le.rpm  repodata
+
+/home/osboxes/Projects/github.com/kubernetes/release/rpm/output/s390x/:
+cri-tools-1.11.1-0.s390x.rpm  kubectl-1.11.0-0.s390x.rpm  kubernetes-cni-0.7.5-0.s390x.rpm
+kubeadm-1.11.0-0.s390x.rpm    kubelet-1.11.0-0.s390x.rpm  repodata
+
+/home/osboxes/Projects/github.com/kubernetes/release/rpm/output/x86_64/:
+cri-tools-1.11.1-0.x86_64.rpm  kubectl-1.11.0-0.x86_64.rpm  kubernetes-cni-0.7.5-0.x86_64.rpm
+kubeadm-1.11.0-0.x86_64.rpm    kubelet-1.11.0-0.x86_64.rpm  repodata
+
+Yum repodata written to:
+/home/osboxes/Projects/github.com/kubernetes/release/rpm/output/aarch64/repodata/:
+21d31a2313199aa90a1d16a24e3efa226e040eb0d8dcaeb6842481049fbf12ad-primary.sqlite.bz2
+3fb2bed6c1faf9c3ccc6c43c15d5da383b86cede55ee37cc0471a13c760564f6-filelists.sqlite.bz2
+471160202bf0919aea73bae21950efca0b6f477da2dcd468fe4bbd643f784998-primary.xml.gz
+4d197437430aa01abef74dd39b500c335fbc5e005b18c557f96ab0b76fefcf77-other.sqlite.bz2
+5a88fe9970328266fee0163fa19502b68552e28be193c12e6caaa3bbe5cb51fc-other.xml.gz
+9f98e51911e65aad1ae0952aa49010d2ebef8e85d0b78869138c19102150e240-filelists.xml.gz
+repomd.xml
+
+/home/osboxes/Projects/github.com/kubernetes/release/rpm/output/armhfp/repodata/:
+0bd419504eef5386f22018283a1dd09e7f758df686282517bb3291101cf2344d-other.xml.gz
+16be027ee68388df22b6979bab9673b9813e78117062f67bde62876988446e7e-filelists.sqlite.bz2
+4d0a0a2732a9dc582dada68436fe6a8b54f7e835ff8c2cd90beb361b6a024c43-primary.sqlite.bz2
+5d3e5ef6cf75b80fc5b0fd8b66a02279db514baad2393480da80f955705964b9-primary.xml.gz
+60afc3e92139b0ae22c342ed51977f0806735063e064f023746ea02acdf2c215-other.sqlite.bz2
+8ed40e674ac3c79b420d5c152f8197986bdeadc7be71cba86f6ac87491376019-filelists.xml.gz
+repomd.xml
+
+/home/osboxes/Projects/github.com/kubernetes/release/rpm/output/ppc64le/repodata/:
+072163052797c1b47c8c1c8885009bfc364cdad85fc6725228b5bb065fb0f7bd-filelists.sqlite.bz2
+3b9cb87a7808a2d8d351725e55344f85e109ec8de2ba395fc1f903ab3a5f06e7-primary.sqlite.bz2
+605db5b0e6d782ed4135858e90287a032a448daf8618728c940aac6664d928c1-other.sqlite.bz2
+699f2ffdbb6e89c41dd0ed4b6b0df81b6fdad2afd3dd576aea3bb2467eadc7f3-filelists.xml.gz
+883d4be106eb6ab6132808852730e70f148bbab0baffed54cb6147a386845934-other.xml.gz
+f48b2bb5c9a0f105ff88b970e0ceaaa463138167a0af0c6750a20de7e9f7fe8b-primary.xml.gz
+repomd.xml
+
+/home/osboxes/Projects/github.com/kubernetes/release/rpm/output/s390x/repodata/:
+0c62008b81d8eab42b117f10a17988cbb1c88a5a638baec70fbaf92074717c73-primary.xml.gz
+47ef27e99deb863de6332f14e4688489e523d95a258a626508d84cec76456d81-filelists.xml.gz
+5c2bd7a81ab1eb536af1f6f10f766420fe1c6c7df3154dc9d4927d5a6ffcb4bd-other.sqlite.bz2
+8496d101acccce836d06112d9aae8c6cce02b60987ccc35cdf4bd6b766226e24-other.xml.gz
+9a5fb1bfb1b7fd788e2ad3f89f8db4362a518c771b2fcc2d31e346f389bccc8c-filelists.sqlite.bz2
+ab87805520738365a4c50e591d1de855fc9588503de9c9cf1c48f4a31a7619a6-primary.sqlite.bz2
+repomd.xml
+
+/home/osboxes/Projects/github.com/kubernetes/release/rpm/output/x86_64/repodata/:
+199ab597a6f145a943ed5d63e29227009ebb1babcaaf3d380483ce57522739d3-filelists.sqlite.bz2
+3061507f177a40cdcca84400de61a35364fe4d026479dae38e356d249016e46d-primary.xml.gz
+444b9ec9075fadef7060bd959c38c647b60d03d994a8af505e0d2a9bdd321d04-other.xml.gz
+6bd97107147940c97eeda30a2e4b186334c83ad79d8d4be770a4bee31e8a74bc-primary.sqlite.bz2
+e09644546d2960aee598ec7a56bf5d94d03b8e9a276ae6d1f138ecad7f8b269e-filelists.xml.gz
+f8a97fb61c26b62966e37177e9a3831257a1f22b484158fc740568cacd221c33-other.sqlite.bz2
+repomd.xml
