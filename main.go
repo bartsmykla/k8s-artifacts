@@ -3,13 +3,13 @@ package main
 import (
 	"context"
 	"fmt"
-	"google.golang.org/api/option"
 	"log"
 	"sort"
 	"strings"
 
-	"google.golang.org/api/iterator"
 	"cloud.google.com/go/storage"
+	"google.golang.org/api/iterator"
+	"google.golang.org/api/option"
 )
 
 const (
@@ -74,7 +74,7 @@ func handleBuckets(
 
 	size := uint64(0)
 
-	result := []*Object{}
+	var result []*Object
 
 	for {
 		object, objectErr := objects.Next()
@@ -207,8 +207,8 @@ func printTable(result map[string]map[[2]string][]string) {
 		}
 	}
 
-	resultArchs := [][2]string{}
-	resultArchsStrings := []string{}
+	var resultArchs [][2]string
+	var resultArchsStrings []string
 	for arch, _ := range archs {
 		resultArchsStrings = append(resultArchsStrings, fmt.Sprintf("%s/%s", arch[0], arch[1]))
 		resultArchs = append(resultArchs, arch)
