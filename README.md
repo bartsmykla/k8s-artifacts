@@ -11,7 +11,7 @@
 
 ## Storage
 
-### Binaries
+### [Binaries](https://github.com/bartsmykla/k8s-artifacts/blob/master/raw_data.txt#L95-L546)
 |  | darwin/386 | darwin/amd64 | linux/386 | linux/amd64 | linux/arm | linux/arm64 | linux/ppc64le | linux/s390x | windows/386 | windows/amd64 |
 |------------------------|----------|------------|---------|-----------|---------|-----------|-------------|-----------|-----------|-------------|
 | apiextensions-apiserver |  |  |  | [binary_file],<br />md5,<br />sha1,<br />sha512 | [binary_file],<br />md5,<br />sha1,<br />sha512 | [binary_file],<br />md5,<br />sha1,<br />sha512 | [binary_file],<br />md5,<br />sha1,<br />sha512 | [binary_file],<br />md5,<br />sha1,<br />sha512 |  |  |
@@ -26,7 +26,7 @@
 | kubelet |  |  |  | [binary_file],<br />md5,<br />sha1,<br />sha512 | [binary_file],<br />md5,<br />sha1,<br />sha512 | [binary_file],<br />md5,<br />sha1,<br />sha512 | [binary_file],<br />md5,<br />sha1,<br />sha512 | [binary_file],<br />md5,<br />sha1,<br />sha512 |  | exe,<br />exe.md5,<br />exe.sha1,<br />exe.sha512 |
 | mounter |  |  |  | [binary_file],<br />md5,<br />sha1,<br />sha512 | [binary_file],<br />md5,<br />sha1,<br />sha512 | [binary_file],<br />md5,<br />sha1,<br />sha512 | [binary_file],<br />md5,<br />sha1,<br />sha512 | [binary_file],<br />md5,<br />sha1,<br />sha512 |  |  |
 
-### Extra files (for GCE)
+### [Extra files (for GCE)](https://github.com/bartsmykla/k8s-artifacts/blob/master/raw_data.txt#L547-L582)
 
 There are also files: .md5, .sha1, .sha512 for every position below
 
@@ -43,7 +43,7 @@ There are also files: .md5, .sha1, .sha512 for every position below
 | windows/k8s-node-setup.psm1 	|
 | windows/user-profile.psm1 	|
 
-### Tar archives
+### [Tar archives](https://github.com/bartsmykla/k8s-artifacts/blob/master/raw_data.txt#L583-L714)
 
 There are also files: .md5, .sha1, .sha512 for every position below
 
@@ -59,6 +59,25 @@ There are also files: .md5, .sha1, .sha512 for every position below
 | kubernetes-src.tar.gz |  |  |  |  |  |  |  |  |  |  |  |
 | kubernetes.tar.gz |  |  |  |  |  |  |  |  |  |  |  |
 
+### [Other (uncategorized) files](https://github.com/bartsmykla/k8s-artifacts/blob/master/raw_data.txt#L92-L94)
+
+| File 	|
+|-----------------------------	|
+| release/latest-1.16.txt |
+| release/latest-1.txt |
+| release/latest.txt |
+
+[Files in directory: **archive**](https://github.com/bartsmykla/k8s-artifacts/blob/master/raw_data.txt#L3-L91)
+
+Comment: It looks like in the directory: **archive** we can find:
+- copy of **anago** (script used for building artifacts)
+- shallow copy of kubernetes repository
+
+[Staged files](https://github.com/bartsmykla/k8s-artifacts/blob/master/raw_data.txt#L715-L1370)
+It looks like all [staged](https://github.com/bartsmykla/k8s-artifacts/blob/master/raw_data.txt#L715-L1370) files vere copied to [release](https://github.com/bartsmykla/k8s-artifacts/blob/master/raw_data.txt#L95-L714) directory, but please be aware I didn't compare files between directories.
+
+### [Contents of tar archives](https://github.com/bartsmykla/k8s-artifacts/tree/master/content_of_tars)
+
 ##### [Content of `kubernetes-client-[system-arch].tar.gz` on example of `kubernetes-client-linux-386.tar.gz` (directories removed from list)](https://github.com/bartsmykla/k8s-artifacts/tree/master/content_of_tars#content-of-kubernetes-client-system-archtargz-on-example-of-kubernetes-client-linux-386targz-directories-removed-from-list)
 ##### [Content of `kubernetes-node-[system-arch].tar.gz` on example of `kubernetes-node-linux-amd64.tar.gz` (directories removed from list)](https://github.com/bartsmykla/k8s-artifacts/tree/master/content_of_tars#content-of-kubernetes-node-system-archtargz-on-example-of-kubernetes-node-linux-amd64targz-directories-removed-from-list)
 ##### [Content of `kubernetes-server-[system-arch].tar.gz` on example of `kubernetes-server-linux-amd64.tar.gz` (directories removed from list)](https://github.com/bartsmykla/k8s-artifacts/tree/master/content_of_tars#content-of-kubernetes-server-system-archtargz-on-example-of-kubernetes-server-linux-amd64targz-directories-removed-from-list)
@@ -70,7 +89,7 @@ There are also files: .md5, .sha1, .sha512 for every position below
 
 ## Packages
 
-### RPMs
+### [RPMs](https://github.com/bartsmykla/k8s-artifacts/blob/master/raw_rpm_data.txt)
 |  	| aarch64 	| armhfp 	| ppc64le 	| s390x 	| x86_64 	|
 |------------------------------------------	|:-------:	|:------:	|:-------:	|:-----:	|:------:	|
 | cri-tools-**[k8s-version]**.**[arch]**.rpm 	| ✅ 	| ✅ 	| ✅ 	| ✅ 	| ✅ 	|
